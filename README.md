@@ -10,7 +10,7 @@ npm i @jdebetaz/icloud-private-relay
 ## Usage
 
 ```js
-const Relay = require('./src/index')
+const Relay = require('@jdebetaz/icloud-private-relay')
 
 async function getSample () {
     let isICloudPrivateRelayAddress = await Relay.isICloudPrivateRelayAddress("172.224.224.72")
