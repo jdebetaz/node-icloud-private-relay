@@ -3,7 +3,9 @@
 NodeJS package that detects iCloud Private Relay IP address based on ICloud's [egress ip range](https://mask-api.icloud.com/egress-ip-ranges.csv) list. More information about how to prepare your network for iCloud Private Relay can be found [here](https://developer.icloud.com/support/prepare-your-network-for-icloud-private-relay/).
 
 ## Installation
-There is no published package for the moment 
+```
+npm i @jdebetaz/icloud-private-relay
+```
 
 ## Usage
 
