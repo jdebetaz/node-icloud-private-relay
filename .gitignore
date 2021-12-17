@@ -1,0 +1,5 @@
+.idea/
+coverage/
+node_modules/
+node-icloud-private-relay.iml
+pnpm-lock.yaml
