@@ -9,6 +9,8 @@ npm i @jdebetaz/icloud-private-relay
 
 ## Usage
 
+> Now support IPv4 & IPv6
+
 ```js
 const Relay = require('@jdebetaz/icloud-private-relay')
 
