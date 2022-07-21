@@ -1,29 +1,31 @@
 {
-  "name": "@jdebetaz/icloud-private-relay",
-  "version": "1.1.0",
-  "description": "",
-  "main": "src/index.js",
-  "homepage": "https://github.com/jdebetaz/node-icloud-private-relay",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jdebetaz/node-icloud-private-relay.git"
-  },
-  "scripts": {
-    "test": "jest"
-  },
-  "keywords": [
-    "node",
-    "nodejs",
-    "icloud",
-    "private",
-    "relay"
-  ],
-  "author": "Jonathan Debétaz <contact@jonathan-d.ch>",
-  "license": "ISC",
-  "devDependencies": {
-    "jest": "^27.4.5"
-  },
-  "dependencies": {
-    "axios": "^0.24.0"
-  }
+    "name": "@jdebetaz/icloud-private-relay",
+    "version": "1.2.0",
+    "description": "",
+    "main": "src/index.js",
+    "homepage": "https://github.com/jdebetaz/node-icloud-private-relay",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jdebetaz/node-icloud-private-relay.git"
+    },
+    "scripts": {
+        "test": "jest"
+    },
+    "keywords": [
+        "node",
+        "nodejs",
+        "icloud",
+        "private",
+        "relay"
+    ],
+    "author": "Jonathan Debétaz <contact@jonathan-d.ch>",
+    "license": "ISC",
+    "devDependencies": {
+        "jest": "^27.4.5"
+    },
+    "dependencies": {
+        "axios": "^0.24.0",
+        "ip-cidr": "^3.0.10",
+        "ip-regex": "2.1.0"
+    }
 }
