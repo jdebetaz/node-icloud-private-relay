@@ -17,5 +17,8 @@ describe('ICloud Private Relay IPv6', () => {
         let response = await Relay.isICloudPrivateRelayAddress(ip)
         expect(response).not.toBeFalsy()
         expect(response.cidr.address.addressMinusSuffix).toBe(ip)
+        expect(response.countryCode).toBe("US")
+        expect(response.regionCode).toBe("US-CA")
+        expect(response.location).toBe("Los Angeles")
     })
 })

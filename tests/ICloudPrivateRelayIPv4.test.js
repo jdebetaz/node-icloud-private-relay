@@ -20,5 +20,8 @@ describe('ICloud Private Relay IPv4', () => {
         let response = await Relay.isICloudPrivateRelayAddress(ip)
         expect(response).not.toBeFalsy()
         expect(response.cidr.address.addressMinusSuffix).toBe(ip)
+        expect(response.countryCode).toBe("GB")
+        expect(response.regionCode).toBe("GB-EN")
+        expect(response.location).toBe("Birmingham")
     })
 })
